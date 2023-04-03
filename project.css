@@ -3,6 +3,7 @@
   color: white;
   margin-top:  2px;
 
+
 }
 .carousel-inner {
     height: 450px;
@@ -21,6 +22,9 @@
   @media (max-width: 846px){
 .main{
     font-size: 25px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: -35px;
 }
 .carousel-caption{
   font-size: 20px;
@@ -39,18 +43,23 @@
 @media (max-width: 846px){
 .main1{
   font-size: 25px;
+  margin-left: -50px;
 }
 }
 
+
   .sub {
-    margin-bottom: 3px;
+    margin-bottom: 5px;
     text-align: left;
     margin-left: -69px;
 
   }
   @media (max-width: 846px){
     .sub{
-      font-size: 15px;
+      font-size: 15px;margin-bottom: 5px;
+      text-align: left;
+      margin-left: -37px;
+
     }
     }
 
@@ -63,6 +72,9 @@
   @media (max-width: 846px){
     .sub1{
       font-size: 15px;
+      margin-bottom: 18px;
+    text-align: left;
+    margin-left: -49px;
     }
     }
     
@@ -72,10 +84,16 @@
     color: white;
     border-radius: 25px;
     margin-left: -70px;
-    margin-bottom: 162px;
+    margin-bottom: 112px;
     text-align: left;
     font-size: small;
   }
+  @media (max-width: 846px){
+    .course{
+      margin-left: -40px;
+    }
+    }
+
 
   .course:hover {
     background-color: rgb(211, 203, 203);
@@ -89,6 +107,13 @@
     margin-left: -70px;
     margin-bottom: 63px;
   }
+  @media (max-width: 846px){
+    .course1{
+      margin-left: -56px;
+    margin-bottom: 55px;
+    }
+    }
+
 
   .course1:hover {
     background-color: rgb(211, 203, 203);
@@ -242,7 +267,6 @@ height: 50px;  }
       margin-left: 75px; 
  }
     }
-  
 
   
 
