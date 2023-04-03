@@ -13,9 +13,9 @@
   }
 
   .main {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     text-align: left;
-    margin-left: -69px;
+    margin-left: -74px;
 
   }
   @media (max-width: 846px){
@@ -43,7 +43,7 @@
 }
 
   .sub {
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     text-align: left;
     margin-left: -69px;
 
@@ -129,6 +129,11 @@
     /* width: 150%; */
     height: 450px;
   }
+  @media (max-width: 846px){
+    .pic{
+  height: 350px;  }
+    }
+  
   .co{
     color: #5e068a;
     
@@ -232,6 +237,12 @@ transition: 1s ease-in-out;
 width: 150px;
 height: 50px;  }
   }
+  @media (max-width: 649px){
+    .last-btn{ 
+      margin-left: 75px; 
+ }
+    }
+  
 
   
 
